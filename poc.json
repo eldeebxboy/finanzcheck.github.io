@@ -41,8 +41,8 @@
       "post" : {
         "description" : "<script language=\"javascript\">alert('5')</script>",
         "summary" : "<script language=\"javascript\">alert('6')</script>",
-        "consumes" : [ "<script language=\"javascript\">alert('7')</script>" ],
-        "produces" : [ "<script language=\"javascript\">alert('8')</script>" ],
+        "consumes" : [ "<b onmouseover=alert(document.domain)</b>" ],
+        "produces" : [ "><svg/onload=prompt(0)> ],
         "tags" : [ "Admin tasks<script language=\"javascript\">alert('9')</script>" ],
         "parameters" : [ {
           "in" : "query",
